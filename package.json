@@ -1,0 +1,15 @@
+{
+  "name": "socket-chat-example",
+  "version": "0.0.1",
+  "description": "A simple chat app that contains a user vizualisable queueing mechanism that can facilitate the communication of individuals in a locality to come together aand make purchases in bulk to achieve better prices.",
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "4.10.2",
+    "passport": "^0.3.2",
+    "redis": "^2.6.5",
+    "socket.io": "1.2.0"
+  },
+  "scripts": {
+    "start": "nodemon --watch . --watch public index.js || node index.js"
+  }
+}

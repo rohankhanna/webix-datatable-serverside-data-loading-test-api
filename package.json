@@ -5,6 +5,7 @@
   "dependencies": {
     "cors": "^2.8.1",
     "express": "4.10.2",
+    "mongodb": "^2.2.24",
     "passport": "^0.3.2",
     "redis": "^2.6.5",
     "socket.io": "1.2.0"
